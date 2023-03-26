@@ -5,6 +5,7 @@ html {
 .main-cont{
   background-color:black;
   padding: 30px;
+  align-content: center;
 }
 
 .h1 {
