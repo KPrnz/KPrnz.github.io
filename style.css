@@ -28,9 +28,8 @@ html {
 .content {
   display: flex;
   justify-content: space-between;
-  max-width: 100%;
   max-width: 500px;
-  margin: auto;
+  margin: 0 auto;
 }
 .span{
 width: 50px;
