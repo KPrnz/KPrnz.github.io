@@ -10,7 +10,7 @@ html {
 .h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .container-d {
   background-color: #5fc1e1;
@@ -30,7 +30,10 @@ font-family: Arial, Helvetica, sans-serif;
 .content {
   display: flex;
   justify-content: space-between;
-  max-width: 100%;
+  min-width: 800px;
+  float: left;
+  width: 30%;
+  width:
   margin: 0 auto;
 }
 .span{
