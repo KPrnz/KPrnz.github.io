@@ -17,6 +17,8 @@ html {
   padding:5px;
   border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif;
+  max-width: 500px;
+  margin: auto;
 }
 .container-i{
   background-color:greenyellow;
@@ -24,6 +26,8 @@ html {
   padding:5px;
   border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif;
+  max-width: 500px;
+  margin: auto;
 }
 .content {
   display: flex;
