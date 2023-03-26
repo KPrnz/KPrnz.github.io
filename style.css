@@ -18,7 +18,7 @@ html {
   border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif;
   max-width: 500px;
-  margin: auto;
+  overflow: scroll;
 }
 .container-i{
   background-color:greenyellow;
@@ -27,12 +27,12 @@ html {
   border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif;
   max-width: 500px;
-  margin: auto;
+  overflow: scroll;
 }
 .content {
   display: flex;
   justify-content: space-between;
-  max-width: 500px;
+  max-width: 100%;
   margin: 0 auto;
 }
 .span{
