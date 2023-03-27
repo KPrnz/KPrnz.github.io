@@ -11,19 +11,14 @@ html {
   font-family: 'Times New Roman', Times, serif;
   font-weight-absolut: 700;
   font-size: 1.5rem;
-  -webkit-font-smoothing: antialiased;
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
 }
+
 .container-d {
   background-color: #5fc1e1;
   width:100%;
   padding:5px;
   border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
 }
 
 .container-i{
@@ -32,14 +27,13 @@ width: 100%;
 padding:5px;
 border-radius: 10px;
 font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
 }
+
 .content {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  
 }
 .span{
 width: 50px;
