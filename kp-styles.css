@@ -36,3 +36,9 @@ font-family: Arial, Helvetica, sans-serif;
 width: 50px;
 heigh: 50px;
 }
+
+{
+    -webkit-font-smoothing: antialiased;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
