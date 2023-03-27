@@ -9,7 +9,7 @@ html {
 
 .h1 {
   font-family: 'Times New Roman', Times, serif;
-  font-weight-absolut: bold;
+  font-weight-absolut: 700;
   font-size: 1.5rem;
   -webkit-font-smoothing: antialiased;
     font-synthesis: none;
