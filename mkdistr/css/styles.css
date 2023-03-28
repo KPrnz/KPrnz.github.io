@@ -631,6 +631,13 @@ progress {
   color: #6c757d;
 }
 
+.cont-container{
+  margin: 0 auto;  
+  width: 1320px;
+  display: flex;
+  padding-left: 70px;
+}
+
 .container,
 .container-fluid,
 .container-xxl,
