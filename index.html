@@ -7,11 +7,7 @@
   <title>First Homework</title>
   <link href="kp-styles.css" rel="stylesheet" type="text/css" />
   <link href="mkdistr/css/styles.css" rel="stylesheet" type="text/css" />
-  
-  
 </head>
-  
-
 <body>
    <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light" >
@@ -37,35 +33,58 @@
             </div>
         </nav>
   
-<div class="main-cont">
+<div class="container">
+	<input id="result" type="text" readonly>
+	<input type="button2" value="AC" onclick=" clearInput()">
+	<input type="button3" value="e^"onclick="addNum('**')">
+	<input type="button3" value="%" onclick="addNum('/100*')">
+	<input type="button3" value="÷" onclick="addNum('/')">
+	<input type="button"  value="1" onclick="addNum('1')">
+	<input type="button"  value="2" onclick="addNum('2')">
+	<input type="button"  value="3" onclick="addNum('3')">
+	<input type="button3" value="x" onclick="addNum('*')">
+	<input type="button"  value="4" onclick="addNum('4')">
+	<input type="button"  value="5" onclick="addNum('5')">
+	<input type="button"  value="6" onclick="addNum('6')">
+	<input type="button3" value="+" onclick="addNum('+')">
+	<input type="button"  value="7" onclick="addNum('7')">
+	<input type="button"  value="8" onclick="addNum('8')">
+	<input type="button"  value="9" onclick="addNum('9')">
+	<input type="button3" value="-" onclick="addNum('-')">
+	<input type="button"  value="." onclick="addNum('.')">
+	<input type="button"  value="0" onclick="addNum('0')">
+	<input type="button"  value="⌫" onclick="backspace(' ')">
+	<input type="button4" value="=" onclick="calculate()">
   
-  <div class="content">
-  <span>
-    <div class="container-d">
-      <div class="h1">
-        <b> DERECHA </b>
-      </div>
-      Lorem ipsum dolor sit amet, viris semper repudiare ius et, cu postea offendit evert itur est, ex aliquid.
-    </div   
-  </div>
-</span> 
-         
-  <div class="content">
-  <span>
-    <div class="container-i">
-      <div class="h1">
-        <b> IZQUIERDA </b>
-      </div>
-     Lorem ipsum dolor sit amet, viris semper repudiare ius et, cu postea offendit evert itur est, ex aliquid.
-    </div> 
-  </div>
-</span>
- 
- <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-  
- </div>
+	<script>
+		let input = document.getElementById("result");
+    let equation = " ";
+		
+		function addNum() {
+		let num1 = parseInt(document.getElementById("num1").value);
+		let num2 = parseInt(document.getElementById("num2").value);
+		let result = (num1/100)*num2;
+		}
+		function addNum(value) {
+    equation += value;
+    input.value = equation;
+    }
+
+    function calculate() {
+    input.value = eval(equation);
+    equation = input.value;
+    }
+    
+    function clearInput() {
+    input.value = "";
+    equation = "";
+    }
+
+    function backspace() {
+    equation = equation.slice(0, -1);
+    input.value = equation;
+    }
+	</script>
+</div>
 </body>
 </html>
